@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="268dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/restaurant_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BC131313"
+            android:gravity="center"
+            android:text="Restaurant Name"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:id="@+id/restaurant_image"
+            android:layout_width="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            />
+
+
+        <TextView
+            android:id="@+id/restaurant_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="5dp"
+            android:gravity="start"
+            android:text="Address"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/restaurant_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="5dp"
+            android:gravity="start"
+            android:text="Location"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B6A617"
+            android:gravity="center"
+            android:text=" "
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
